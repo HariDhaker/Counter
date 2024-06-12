@@ -1,0 +1,95 @@
+.container{
+    height: 70vh;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 6vw;
+    height: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh 4vw;
+
+}
+
+.nav{
+    border-bottom: 2px solid rgb(143, 138, 138);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+.nav-content{
+    display: flex;
+    gap: 2vw;
+}
+.nav-content a{
+    text-decoration: none;
+    color: black;
+}
+#demo{
+    font-size: x-large;
+    font-weight: 800;
+}
+@media (max-width: 600px) {
+   .nav-content{
+    display: none;
+   }
+   .nav{
+    height: 60px;
+   
+    border-bottom: 2px solid rgb(4, 160, 171);
+   
+   }
+   .nav h2{
+    font-weight: 600;
+    font:white;
+    font-style: normal;
+   }
+   button{
+    padding: 2vh 8vw;
+    background: rgb(32, 175, 188);
+   }
+  }
+
+.mails{
+    margin: 5px 5px;
+}
+#srch{
+    width: 57vw;
+    border-radius:20px;
+    height: 25px;
+}
+#profile{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border-radius:50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.text{
+    border: 2px solid white;
+    margin:5px;
+    padding: 2px;
+    padding-left: 0px;
+    display: flex;
+    font-size: large;
+}
+#send
+{
+    margin-left: 30px;
+
+}
+#date{
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+}
